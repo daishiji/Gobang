@@ -1,0 +1,9 @@
+public interface Ai {
+
+    // 得到当前的Ai落子,根据当前棋局，落子方，难度
+    public int[] AiMove(int[][] curChessInfo, int[] border);
+
+    // 对Ai的设置，先后手和难度
+    public void setAi(boolean firstPlayer, int difficulty);
+
+}
